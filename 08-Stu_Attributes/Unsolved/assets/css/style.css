@@ -1,5 +1,5 @@
-#lesson {
-  background-color: green;
+.lesson {
+  background-color: royalblue;
 }
 
 .title {
@@ -7,13 +7,13 @@
 }
 
 #email {
-  background-color: goldenrod;
+  background-color: palevioletred;
 }
 
 #github {
-  background-color: lightsteelblue;
+  background-color: plum;
 }
 
 #portfolio {
-  background-color: darkorange;
+  background-color: palegreen;
 }
