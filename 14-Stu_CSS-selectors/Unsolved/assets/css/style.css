@@ -1,11 +1,26 @@
-/* TODO: Label selector type */
+/* TODO: Universal Selector */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
-/* TODO: Label selector type */
+/* TODO: Element selector */
 body {
   background-color: lemonchiffon;
+}
+
+/* Any button over which the user's pointer is hovering */
+p:hover {
+  color: blue;
+}
+
+/* Any button over which the user's pointer is hovering */
+h2:hover {
+  color: blue;
+}
+
+/* Any button over which the user's pointer is hovering */
+:hover {
+  color: blue;
 }
 
 header,
@@ -17,17 +32,18 @@ footer {
   background-color: #191970;
 }
 
-figure {
+figure: {
   width: 200px;
   background-color: #f0ead6;
 }
 
-/* TODO: Label selector type */
+/* TODO: Class selector */
 .highlighted-text {
   font-weight: bolder;
 }
 
-/* TODO: Label selector type */
+/* TODO: Id selector is unique*/
 #contact-section {
   background-color: #f0ead6;
 }
+
